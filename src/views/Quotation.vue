@@ -1,7 +1,7 @@
 <template>
-  <div class="home">
+  <div class="quotation">
     <main-container>
-      <bitcoin-get />
+      <dolar-get />
     </main-container>
   </div>
 </template>
@@ -10,16 +10,15 @@
 <script>
   // @ is an alias to /src
   //import HelloWorld from '@/components/HelloWorld.vue'
-  import mainContainer from '../components/MainContainer.vue'
-  import BitcoinGet from '../components/BitcoinGet.vue'
-  
-
+  import mainContainer from '@/components/MainContainer.vue'
+  import DolarGet from '@/components/DolarGet.vue'
 
   export default {
-    name: 'Home',
+    name: 'Quotation',
     components: {
       mainContainer,
-      BitcoinGet,
+      DolarGet
     }
   }
 </script>
+
