@@ -1,12 +1,16 @@
 # Quotation-vue
 
-Knowledge test of vue-cli documentation
+Knowledge test of vue-cli documentation :green_heart:
+
 The program shows the quotation of Bitcoin for:
  - Dollar
  - Pound
  - Euro
+ 
 > Using the api: https://api.coindesk.com/v1/bpi/currentprice.json
+
 In addition to shows, the dollar to euro quote on another page using vue router
+
 > Using the api: https://economia.awesomeapi.com.br/all/USD-BRL
 
 ## Project setup
